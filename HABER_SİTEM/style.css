@@ -1,0 +1,98 @@
+/* NAVBAR */
+
+.kategori-link {
+    font-family: "Libertinus Mono", monospace;
+    transition: all 0.3s ease;
+    color: black;
+}
+
+.kategori-link:hover {
+    background-color: #0d6efd;
+    color: #fff;
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(13, 110, 253, 0.9);
+    text-shadow: 0 0 10px #fff;
+}
+
+
+
+
+
+
+/* GECE MODU - GÜBDÜZ MODU */
+/* 🌞 Gündüz Modu - varsayılan */
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* 🌙 Gece Modu */
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+/* Link renkleri */
+a {
+    color: #0000ee;
+}
+body.dark-mode a {
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+body.dark-mode .navbar {
+    background-color: #1e1e1e;
+}
+
+/* Dropdown menü */
+body.dark-mode .dropdown-menu {
+    background-color: #2c2c2c;
+}
+body.dark-mode .dropdown-item {
+    color: #ffffff;
+}
+body.dark-mode .dropdown-item:hover {
+    background-color: #3a3a3a;
+}
+
+/* Kategori butonları */
+body.dark-mode .kategori-link {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+body.dark-mode .kategori-link:hover {
+    background-color: #ffffff;
+    color: #121212;
+}
+
+/* Kartlar */
+.card {
+    background-color: #ffffff;
+    color: #000000;
+}
+body.dark-mode .card {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Footer */
+footer {
+    background-color: #f8f9fa;
+    color: #000000;
+}
+body.dark-mode footer {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+/* Toggle yazısı */
+.form-check-label {
+    color: #000000;
+}
+body.dark-mode .form-check-label {
+    color: #ffffff;
+}
